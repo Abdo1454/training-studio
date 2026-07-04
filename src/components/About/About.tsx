@@ -24,10 +24,10 @@ function About() {
           <div className="list">
             <img src={featureAbout} alt="Feature" />
             <div className="info-list">
-              <h3> 
-Advanced Muscle Course</h3>
+              <h3>Advanced Muscle Course</h3>
               <p>
-        You may want to browse through Digital Marketing or Corporate HTML CSS templates on our website.
+                You may want to browse through Digital Marketing or Corporate
+                HTML CSS templates on our website.
               </p>
               <a href="#">Discover More</a>
             </div>
@@ -35,11 +35,10 @@ Advanced Muscle Course</h3>
           <div className="list">
             <img src={featureAbout} alt="Feature" />
             <div className="info-list">
-              <h3> 
-
-New Gym Training</h3>
+              <h3>New Gym Training</h3>
               <p>
-              If you wish to support TemplateMo website via PayPal, please feel free to contact us. We appreciate it a lot.
+                If you wish to support TemplateMo website via PayPal, please
+                feel free to contact us. We appreciate it a lot.
               </p>
               <a href="#">Discover More</a>
             </div>
@@ -49,7 +48,8 @@ New Gym Training</h3>
             <div className="info-list">
               <h3>Yoga Training</h3>
               <p>
-        This template is built on Bootstrap v4.3.1 framework. It is easy to adapt the columns and sections.
+                This template is built on Bootstrap v4.3.1 framework. It is easy
+                to adapt the columns and sections.
               </p>
               <a href="#">Discover More</a>
             </div>
@@ -57,11 +57,10 @@ New Gym Training</h3>
           <div className="list">
             <img src={featureAbout} alt="Feature" />
             <div className="info-list">
-              <h3> 
-
-Basic Muscle Course</h3>
+              <h3>Basic Muscle Course</h3>
               <p>
-             Credit goes to Pexels website for images and video background used in this HTML template.
+                Credit goes to Pexels website for images and video background
+                used in this HTML template.
               </p>
               <a href="#">Discover More</a>
             </div>
@@ -71,13 +70,22 @@ Basic Muscle Course</h3>
             <div className="info-list">
               <h3>Body Building Course</h3>
               <p>
-              Suspendisse fringilla et nisi et mattis. Curabitur sed finibus nisi. Integer nibh sapien, vehicula et auctor.
+                Suspendisse fringilla et nisi et mattis. Curabitur sed finibus
+                nisi. Integer nibh sapien, vehicula et auctor.
               </p>
               <a href="#">Discover More</a>
             </div>
           </div>
-       
         </div>
+      </div>
+      <div className="about-section">
+        <h2>Don’t think, begin today!</h2>
+        <p>
+          Ut consectetur, metus sit amet aliquet placerat, enim est ultricies
+          ligula, sit amet dapibus odio augue eget libero. Morbi tempus mauris a
+          nisi luctus imperdiet.
+        </p>
+        <a href="#">Become a member</a>
       </div>
     </div>
   );
