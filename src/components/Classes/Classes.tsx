@@ -1,5 +1,6 @@
 import { useState } from "react";
 import dec from "../../assets/images/line-dec.png";
+import featureClasses from "../../assets/images/tabs-first-icon.png";
 import "./Classes.css";
 import data from "../../data/classes.json";
 console.log(data.classes);
@@ -36,10 +37,11 @@ const [selectedClass, setSelectedClass] = useState(data.classes[0]);
      <div className="classes-list">
 
      <div className="list-item">
-              <h3 onClick={()=> setSelectedClass(data.classes[0])}>First Training Class</h3>
-              <h3  onClick={()=> setSelectedClass(data.classes[1])}>Second Training Class</h3>
-              <h3 onClick={()=> setSelectedClass(data.classes[2])}>Third Training Class</h3>
-              <h3 onClick={()=> setSelectedClass(data.classes[3])}>Fourth Training Class</h3>
+              <h3 onClick={()=> setSelectedClass(data.classes[0])}><img src={featureClasses}></img> First Training Class</h3>
+              <h3  onClick={()=> setSelectedClass(data.classes[1])}> <img src={featureClasses}></img> Second Training Class</h3>
+              <h3 onClick={()=> setSelectedClass(data.classes[2])}> <img src={featureClasses}></img> Third Training Class</h3>
+              <h3 onClick={()=> setSelectedClass(data.classes[3])}> <img src={featureClasses}></img>Fourth Training Class</h3>
+               <a className="link-classes" >View All Schedules</a> 
             </div>
         
 
@@ -48,12 +50,13 @@ const [selectedClass, setSelectedClass] = useState(data.classes[0]);
     <img
       src={images[selectedClass.image as ImageKey]}
       alt={selectedClass.title}
-      width={200}
     />
 
     <h4>{selectedClass.subtitle}</h4>
 
     <p>{selectedClass.description}</p>
+              <h3> <a  className="link-classes" >View Schedule</a> </h3>
+
   </div>
 </div>
             
