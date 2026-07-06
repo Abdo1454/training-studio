@@ -1,0 +1,60 @@
+{
+  "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+  "classes": [
+    {
+      "name": "Fitness Class",
+      "schedule": {
+        "Monday": "10:00AM - 11:30AM",
+        "Tuesday": "",
+        "Wednesday": "",
+        "Thursday": "",
+        "Friday": ""
+      },
+      "trainer": "William G. Stewart"
+    },
+    {
+      "name": "Muscle Training",
+      "schedule": {
+        "Monday": "",
+        "Tuesday": "10:00AM - 11:30AM",
+        "Wednesday": "",
+        "Thursday": "",
+        "Friday": ""
+      },
+      "trainer": "Paul D. Newman"
+    },
+    {
+      "name": "Body Building",
+      "schedule": {
+        "Monday": "",
+        "Tuesday": "",
+        "Wednesday": "2:00PM - 3:30PM",
+        "Thursday": "",
+        "Friday": ""
+      },
+      "trainer": "Boyd C. Harris"
+    },
+    {
+      "name": "Yoga Training Class",
+      "schedule": {
+        "Monday": "",
+        "Tuesday": "",
+        "Wednesday": "",
+        "Thursday": "10:00AM - 11:30AM",
+        "Friday": ""
+      },
+      "trainer": "Hector T. Daigle"
+    },
+    {
+      "name": "Advanced Training",
+      "schedule": {
+        "Monday": "",
+        "Tuesday": "",
+        "Wednesday": "",
+        "Thursday": "",
+        "Friday": "2:00PM - 3:30PM"
+      },
+      "trainer": "Bret D. Bowers"
+    }
+  ]
+}
