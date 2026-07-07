@@ -8,6 +8,9 @@
     height: 130vh;
     color: #fff;
 }
+.dec-image{
+    width: 5%;
+}
 .list-days{
     display: flex;
     list-style: none;

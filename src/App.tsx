@@ -3,6 +3,7 @@ import Classes from './components/Classes/Classes'
 import Hero from './components/Hero/Hero'
 import Navbar from './components/Navbar/Navbar'
 import Schedule from './components/Schedule/Schedule'
+import Trainers from './components/Trainers/Trainers'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
     <About />
     <Classes />
     <Schedule />
+    <Trainers />
     </div>
   )
 }
