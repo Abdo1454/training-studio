@@ -1,3 +1,4 @@
+import React from "react";
 import dec from "../../assets/images/line-dec.png";
 import data from '../../Data/schedule.json';
 import { useState  } from "react";
@@ -33,13 +34,24 @@ const [day, setDay] = useState<Day>("Monday");
     {data.classes.map((item) => (
       <tr key={item.name}>
         <td>{item.name}</td>
+{data.days.map((currentDay) => {
+  if (currentDay !== day) return null;
 
-      {data.days.map((currentDay) => (
-        
-  <td key={currentDay}>
-    {currentDay === day ? item.schedule[currentDay] :null}
-  </td>
-))}
+  const time =
+    item.schedule[currentDay as keyof typeof item.schedule];
+
+  return (
+    <React.Fragment key={currentDay}>
+      <td>
+        {time === "10:00AM - 11:30AM" ? time : ""}
+      </td>
+
+      <td>
+        {time === "2:00PM - 3:30PM" ? time : ""}
+      </td>
+    </React.Fragment>
+  );
+})}
 
         <td>{item.trainer}</td>
       </tr>

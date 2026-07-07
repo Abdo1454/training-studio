@@ -5,7 +5,7 @@
       "name": "Fitness Class",
       "schedule": {
         "Monday": "10:00AM - 11:30AM",
-        "Tuesday": "",
+        "Tuesday": "2:00PM - 3:30PM",
         "Wednesday": "",
         "Thursday": "",
         "Friday": ""
@@ -16,19 +16,19 @@
       "name": "Muscle Training",
       "schedule": {
         "Monday": "",
-        "Tuesday": "10:00AM - 11:30AM",
+        "Tuesday": "",
         "Wednesday": "",
-        "Thursday": "",
-        "Friday": ""
+        "Thursday": "2:00PM - 3:30PM",
+        "Friday": "10:00AM - 11:30AM"
       },
       "trainer": "Paul D. Newman"
     },
     {
       "name": "Body Building",
       "schedule": {
-        "Monday": "",
-        "Tuesday": "",
-        "Wednesday": "2:00PM - 3:30PM",
+        "Monday": "2:00PM - 3:30PM",
+        "Tuesday": "10:00AM - 11:30AM",
+        "Wednesday": "",
         "Thursday": "",
         "Friday": ""
       },
@@ -39,9 +39,9 @@
       "schedule": {
         "Monday": "",
         "Tuesday": "",
-        "Wednesday": "",
-        "Thursday": "10:00AM - 11:30AM",
-        "Friday": ""
+        "Wednesday": "10:00AM - 11:30AM",
+        "Thursday": "",
+        "Friday": "2:00PM - 3:30PM"
       },
       "trainer": "Hector T. Daigle"
     },
@@ -50,9 +50,9 @@
       "schedule": {
         "Monday": "",
         "Tuesday": "",
-        "Wednesday": "",
-        "Thursday": "",
-        "Friday": "2:00PM - 3:30PM"
+        "Wednesday": "2:00PM - 3:30PM",
+        "Thursday": "10:00AM - 11:30AM",
+        "Friday": ""
       },
       "trainer": "Bret D. Bowers"
     }
