@@ -18,6 +18,9 @@
 .list-days li{
     cursor: pointer;
 }
+.active{
+    color: #f35a0a;
+}
 .table-content{
       width: 70%;
   border-collapse: collapse;

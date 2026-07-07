@@ -19,15 +19,48 @@ const [day, setDay] = useState<Day>("Monday");
           viverra ipsum dolor, ultricies fermentum massa consequat eu.
         </p>
             <ul className="list-days">
-                <li onClick={()=>{setDay("Monday")}} >Monday</li>
-                <li>/</li>
-                <li onClick={()=>{setDay("Tuesday")}} >Tuesday</li>
-                <li>/</li>
-                <li onClick={()=>{setDay("Wednesday")}} >Wednesday</li>
-                <li>/</li>
-                <li onClick={()=>{setDay("Thursday")}} >Thursday</li>
-                <li>/</li>
-                <li onClick={()=>{setDay("Friday")}} >Friday</li>
+              <li
+  className={day === "Monday" ? "active" : ""}
+  onClick={() => setDay("Monday")}
+>
+  Monday
+</li>
+
+<li>/</li>
+
+<li
+  className={day === "Tuesday" ? "active" : ""}
+  onClick={() => setDay("Tuesday")}
+>
+  Tuesday
+</li>
+
+<li>/</li>
+
+<li
+  className={day === "Wednesday" ? "active" : ""}
+  onClick={() => setDay("Wednesday")}
+>
+  Wednesday
+</li>
+
+<li>/</li>
+
+<li
+  className={day === "Thursday" ? "active" : ""}
+  onClick={() => setDay("Thursday")}
+>
+  Thursday
+</li>
+
+<li>/</li>
+
+<li
+  className={day === "Friday" ? "active" : ""}
+  onClick={() => setDay("Friday")}
+>
+  Friday
+</li>
             </ul>
     <table className="table-content">
   <tbody>
