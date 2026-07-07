@@ -1,37 +1,72 @@
 .trainer-content {
-    padding: 50px 0;
+    padding: 80px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 40px;
 }
-h2 span{
+
+.trainer-content h2 span {
     color: #ed563b;
 }
+
+.trainer-content p {
+    max-width: 700px;
+    text-align: center;
+    color: #666;
+    line-height: 1.7;
+}
+
 .Trainers-list {
-    margin-left: 100px;
+    width: 100%;
+    max-width: 1200px;
     display: flex;
+    justify-content: center;
     gap: 30px;
     flex-wrap: wrap;
-    justify-content: center;
+    margin: 0 auto;
 }
 
 .trainer {
-    flex: 1;
-    min-width: 250px;
+    width: 350px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 18px;
+
+    transition: transform .3s ease, box-shadow .3s ease;
+}
+
+.trainer:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.18);
 }
 
 .trainer img {
-    width: 80%;
+    width: 100%;
+    border-radius: 6px;
     display: block;
+}
+
+.trainer h4 {
+    color: #ed563b;
+    font-size: 14px;
+    margin: 0;
+}
+
+.trainer h3 {
+    margin: 0;
+    color: #232d39;
 }
 
 .trainer p {
     width: 100%;
-    line-height: 1.7;
+    color: #666;
+    line-height: 1.8;
 }
 
 .list-soc {
@@ -39,4 +74,14 @@ h2 span{
     list-style: none;
     gap: 20px;
     padding: 0;
+    margin: 0;
+}
+
+.list-soc li {
+    cursor: pointer;
+    transition: color .3s;
+}
+
+.list-soc li:hover {
+    color: #ed563b;
 }

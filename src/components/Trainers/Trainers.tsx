@@ -19,7 +19,7 @@ function Trainers() {
       <div className="Trainers-list">
         <div className="trainer">
           <img src={first}></img>
-          <h5>Strength Trainer</h5>
+          <h4>Strength Trainer</h4>
           <h3>Bret D. Bowers</h3>
           <p>
             Bitters cliche tattooed 8-bit distillery mustache. Keytar succulents
@@ -34,7 +34,7 @@ function Trainers() {
         </div>
         <div className="trainer">
           <img src={second}></img>
-          <h5>Strength Trainer</h5>
+          <h4>Strength Trainer</h4>
           <h3>Bret D. Bowers</h3>
           <p>
             Bitters cliche tattooed 8-bit distillery mustache. Keytar succulents
@@ -49,7 +49,7 @@ function Trainers() {
         </div>
         <div className="trainer">
           <img src={third}></img>
-          <h5>Strength Trainer</h5>
+          <h4>Strength Trainer</h4>
           <h3>Bret D. Bowers</h3>
           <p>
             Bitters cliche tattooed 8-bit distillery mustache. Keytar succulents
